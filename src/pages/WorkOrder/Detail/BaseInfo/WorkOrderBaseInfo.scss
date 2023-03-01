@@ -1,0 +1,25 @@
+.root {
+  :global(.ant-col-8) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+.button {
+  padding: 0 !important;
+  height: fit-content !important;
+}
+
+.account {
+  display: inline-flex;
+  margin-left: 4px;
+}

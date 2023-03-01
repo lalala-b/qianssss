@@ -1,0 +1,15 @@
+.groupBoxLabel {
+  min-width: 80px;
+}
+
+.root {
+  :global(.ant-tabs-nav) {
+    margin: 0px !important;
+  }
+}
+
+.firstLevelTabs {
+  & > :global(.ant-tabs-nav::before) {
+    border-bottom: 3px solid #f0f0f0 !important;
+  }
+}

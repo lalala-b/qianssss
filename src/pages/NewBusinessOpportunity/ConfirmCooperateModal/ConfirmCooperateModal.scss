@@ -1,0 +1,118 @@
+.quotationWrap {
+  display: flex;
+  flex-direction: column;
+  
+  .quotationHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    h3 {
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+  }
+
+  .quotationBody {
+    margin-top: 20px;
+    // width: 100%;
+    // overflow: auto;
+
+    .quotationBodyHeader {
+      font-weight: 700;
+      margin-bottom: 10px;
+
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.otherMsgWrap {
+  margin-top: 20px;
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .paymentTypeWrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .paymentSelectItem {
+      // width: 40% !important;
+      margin-right: 30px !important;
+    }
+
+    .paymentTipWrap {
+      // margin-left: -20%;
+      width: 30%;
+
+      .rebateItem {
+        position: relative;
+        top: -12px;
+      }
+
+      .paymentTip {
+        // display: inline-block;
+
+        span {
+          margin-right: 10px;
+
+          .inputItem {
+            width: 30%;
+            display: inline-block;
+            vertical-align: baseline;
+          }
+        }
+      }
+    }
+  }
+
+  .executorSelectItem {
+    width: 14% !important;
+  }
+}
+
+.loadingOutlinedWrap {
+  margin-top: 50px;
+  font-size: 16px;
+  color: #1890ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .loadingOutlinedStyle {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+}
+
+// .confirmPublishDate {
+//   :global(.ant-picker-cell-disabled::before){
+//     background: #ffc9c9 !important; 
+//   }
+//   :global(.ant-picker-footer-extra){
+//       line-height: 20px !important;
+//       color: #fa5959;
+//       text-align: center;
+//       font-size: 12px;
+//       background: #ffc9c9;
+//   }
+// }
+
+
+// .specialCaseInput {
+//   border: 1px solid #d9d9d9;
+//   border-radius: 2px;
+//   padding: 4px 10px;
+//   color: rgba(0, 0, 0, 0.85);
+
+//   &:focus-visible {
+//     outline: none;
+//     box-shadow: 0 0 0 1px #40a9ff;
+//   }
+// }

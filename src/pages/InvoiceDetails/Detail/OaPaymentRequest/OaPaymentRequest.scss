@@ -1,0 +1,28 @@
+.successButton {
+  background: #87d068 !important;
+  border-color: #87d068 !important;
+  outline: #87d068 !important;
+}
+.ghostButton{
+  border-color: #1990ff !important;
+  outline: #1990ff !important;
+  color: #1990ff !important;
+}
+.oaPaymentRequestWrapper {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+}
+.error {
+  color: #ff4d4f;
+  margin-left: 100px;
+  margin-top: 8px;
+}
+.btnWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  .btnApplay{
+    width: 140px;
+  }
+}

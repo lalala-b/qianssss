@@ -1,0 +1,7 @@
+.OverPopover{
+  cursor: pointer;
+  word-break: break-all;
+}
+:global(.ant-tooltip-inner){
+  word-break: break-all;
+}

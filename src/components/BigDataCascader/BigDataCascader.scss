@@ -1,0 +1,19 @@
+.root {
+  :global(.ant-cascader-menu-item) {
+    padding: 0 12px !important;
+  }
+
+  .renderItem {
+    padding: 5px 0;
+
+    span {
+        &:last-child {
+            margin-right: 20px;
+        }
+    }
+  }
+
+  .redFront {
+    color: red
+  }
+}

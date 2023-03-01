@@ -1,0 +1,31 @@
+.contentWrap {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+
+  .formItem {
+    width: 84% !important;
+  }
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  button {
+    margin-left: 12px;
+  }
+}
+
+.uploadWrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contentItemWrap {
+  width: 220px;
+  word-break: break-all;
+}

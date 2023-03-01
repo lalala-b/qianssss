@@ -1,0 +1,16 @@
+.title {
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.select {
+  width: 200px !important;
+}
+
+.table {
+    :global(.ant-table) {
+      max-height: 300px;
+      overflow: auto;
+    }
+  }
+  

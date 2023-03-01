@@ -1,0 +1,52 @@
+.qWrap {
+  margin-bottom: 20px;
+  padding: 24px 16px;
+  background: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  .workItemHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    &Title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-right: 6px;
+    }
+    .flexAlign {
+      display: flex;
+      align-items: center;
+      &Title {
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 6px;
+      }
+      .flexAlign {
+        display: flex;
+        align-items: center;
+      }
+      :global(.ant-tag) {
+        line-height: 26px !important;
+        border-color: transparent !important;
+        height: 26px !important;
+      }
+    }
+  }
+  .operation {
+    color: #969292;
+  }
+  .cancelOrderReason{
+    color: red;
+    font-size: 10px;
+    padding-top: 2px;
+    cursor: pointer;
+  }
+}
+:global(.ant-tooltip-inner){
+  word-break: break-all;
+}
+
+.updateTime {
+  margin-top: 10px;
+  color: #969292;
+}

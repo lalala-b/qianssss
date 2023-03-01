@@ -1,0 +1,138 @@
+.notice {
+  color: #f71717;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+}
+
+.wrapper {
+  flex: 1;
+  padding: 24px !important;
+
+  :global(.ant-form) {
+    border: 1px solid #ccc;
+  }
+
+  :global(.ant-form-item) {
+    margin-bottom: 0;
+  }
+
+  :global(.ant-form-item-label) {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+  :global(.ant-form-item-control) {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  :global(.ant-row) {
+    height: 100%;
+  }
+
+  :global(.ant-row .ant-col) {
+    flex-grow: 1;
+  }
+
+  :global(.ant-form-item) {
+    height: 100%;
+  }
+
+  .col {
+    position: relative;
+    :global(.ant-form-item-control) {
+      border-right: 1px solid #ccc;
+    }
+  }
+}
+
+.description {
+  border-radius: 4px;
+  width: 362px;
+  margin-left: 16px;
+  box-shadow: 0px 0px 2px #aaa;
+  height: fit-content;
+
+  .title {
+    background-color: #f6f7f8;
+    padding: 0 20px;
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+
+  div {
+    padding: 20px;
+    color: #999;
+    font-size: 12px;
+    background: #fff;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.step {
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 10px;
+    background-color: #ddd;
+  }
+
+  .entryInfoBox {
+    // background-color: #eee;
+
+    .row {
+      width: 100%;
+    }
+  }
+
+  :global(.ant-form-item-label > label) {
+    white-space: pre-wrap;
+  }
+
+  .entryInfoTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+
+    h4 {
+      margin-bottom: 0;
+      padding-left: 16px;
+      line-height: 30px;
+    }
+  }
+
+  .taxAmountInput {
+    width: 60%;
+  }
+}
+
+.redColor {
+  color: #f71717;
+}
+
+.fileBox {
+  position: relative;
+
+  .notice {
+    position: absolute;
+    top: 0;
+    width: 60%;
+    left: calc(17% + 152px);
+    font-size: 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,15 @@
+.contentWrap {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  :global(.ant-btn) {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,156 @@
+.search {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-bottom: 36px;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+.qwrap {
+  padding: 24px;
+  background: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.ml12 {
+  margin-left: 12px;
+}
+.mt12 {
+  margin-top: 12px;
+}
+
+.mb12 {
+  margin-bottom: 12px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+.mb32 {
+  margin-bottom: 24px;
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+.columnBtn {
+  color: #1890ff;
+  cursor: pointer;
+}
+.TaskManagementCom {
+  .btnwrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.itemInput {
+  width: 310px !important;
+  margin-right: 16px !important;
+}
+.card-box {
+  display: flex;
+}
+//需求详情样式
+.detailDrawer {
+  :global(.ant-drawer-title) {
+    display: flex;
+    justify-content: space-between;
+  }
+  .closeButton {
+    cursor: pointer;
+
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: #00000073;
+      transition: all 0.2s;
+    }
+
+    &:hover {
+      svg {
+        fill: #000;
+      }
+    }
+  }
+  :global(.ant-select) {
+    width: 200px !important;
+    margin-right: 16px !important;
+  }
+  .detailLabel {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-weight: 600;
+    margin-right: 8px;
+  }
+  .demandtitle {
+    font-weight: 600;
+  }
+  :global(.ant-form-item-label > label) {
+    font-weight: 600 !important;
+  }
+  :gloabl(.ant-form-item) {
+    margin-bottom: 0px !important;
+  }
+  .dropdownItem {
+    width: 96px !important;
+    :global(.ant-select-selector) {
+      border: none !important;
+      box-shadow: none !important;
+      color: #1890ff !important;
+    }
+    :global(.ant-select-arrow) {
+      color: #1890ff !important;
+    }
+  }
+  .greyText {
+    font-size: 14px;
+    color: #8b8989;
+    line-height: 36px;
+    margin-bottom: 0 !important;
+    margin-left: 110px;
+  }
+  .flexRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.DetailMoadal {
+  .label {
+    width: 90px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 8px;
+    text-align: right;
+    display: inline-block;
+  }
+}
+.SpinWapper {
+  position: relative;
+  padding: 12px;
+  width: 444px;
+  color: #333;
+  :global(.ant-spin-spinning) {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+  }
+}
+.platLogo{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+:global(.ant-tooltip) {
+  max-width: 564px !important;
+}

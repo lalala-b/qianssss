@@ -1,0 +1,18 @@
+.workDetial {
+  .stepWrap {
+    position: sticky;
+    top: -1.5rem;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .selfStepWrap {
+    top: 64px;
+  }
+  .stepWrapper {
+    padding: 0px 16px 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+}

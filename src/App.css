@@ -1,0 +1,161 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.q-wrap{
+  background-color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+.m-t-6 {
+  margin-top: 6px;
+}
+
+.m-b-6 {
+  margin-bottom: 6px;
+}
+
+.m-r-6 {
+  margin-right: 6px;
+}
+
+.m-l-6 {
+  margin-left: 6px;
+}
+
+.m-t-24 {
+  margin-top: 24px;
+}
+
+.m-b-24 {
+  margin-bottom: 24px;
+}
+
+.m-r-24 {
+  margin-right: 24px;
+}
+
+.m-l-24 {
+  margin-left: 24px;
+}
+
+.qp-wrapper {
+  border-radius: 6px;
+  padding: 24px 16px;
+  margin-bottom: 24px;
+  background: #fff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  font-size: 20px;
+  left: 10px;
+  z-index: 2;
+  color: #999;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-next:focus {
+  font-size: 20px;
+  right: 10px;
+  z-index: 2;
+  color: #999;
+  /* color: blueviolet; */
+}
+.ant-card.ant-card-bordered {
+  margin-bottom: 20px;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td{
+  text-align: center !important;
+}
+
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  background-color: #f5f7fa;
+}
+.ant-table-body .ant-table-row-hover{
+  background: #f5f7fa;
+}
+.ant-table-body .ant-table-row-hover>td{
+  background: #f5f7fa;
+}
+
+.qiankun .ant-layout {
+  background: none;
+}
+
+.qp-layout-header {
+  z-index: 9;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 64px;
+  top: 0;
+  left: 0;
+}
+
+.qp-layout-logo {
+  display: block;
+  width: 216px;
+}
+
+.qp-layout-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.qp-layout-name {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.qp-flex {
+  display: flex;
+}
+
+.qp-disappear {
+  opacity: 0;
+}

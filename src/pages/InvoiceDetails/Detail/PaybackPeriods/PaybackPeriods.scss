@@ -1,0 +1,34 @@
+.paybackPeriodsWrapper {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+
+  .select {
+    max-width: 160px !important;
+  }
+
+  .error {
+    color: #ff4d4f;
+  }
+
+  :global(#darenUndertakeRefundRatio) {
+    width: 100px;
+  }
+
+  .url {
+    width: 300px;
+    word-break: break-all;
+  }
+}
+
+.successButton {
+  background: #87d068 !important;
+  border-color: #87d068 !important;
+  outline: #87d068 !important;
+}
+
+.ghostButton{
+  border-color: #1990ff !important;
+  outline: #1990ff !important;
+  color: #1990ff !important;
+}

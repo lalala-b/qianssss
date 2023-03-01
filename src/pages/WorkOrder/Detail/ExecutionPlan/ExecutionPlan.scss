@@ -1,0 +1,43 @@
+.successButton {
+  background: #87d068 !important;
+  border-color: #87d068 !important;
+  outline: #87d068 !important;
+}
+
+.select {
+  max-width: 160px !important;
+}
+
+.wrapper {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+}
+
+.error {
+  color: #ff4d4f;
+}
+// .myPublishDate {
+//   :global(.ant-picker-cell-disabled::before) {
+//     background: #ffc9c9 !important;
+//   }
+//   :global(.ant-picker-footer-extra) {
+//     line-height: 20px !important;
+//     color: #fa5959;
+//     text-align: center !important;
+//     font-size: 12px;
+//     background: #ffc9c9;
+//   }
+// }
+
+
+.contentTipWrap {
+  :global(.ant-form-item) {
+    margin-bottom: 6px;
+  }
+
+  .contentTip {
+    color: red;
+    width: 100%;
+  }
+}

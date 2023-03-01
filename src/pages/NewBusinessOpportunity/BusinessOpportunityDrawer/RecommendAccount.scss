@@ -1,0 +1,38 @@
+.coDateTitle {
+  color: #ff4d4f;
+}
+// .myPublishDate {
+//   :global(.ant-picker-cell-disabled::before) {
+//     background: #ffc9c9 !important;
+//   }
+//   :global(.ant-picker-footer-extra) {
+//     line-height: 20px !important;
+//     color: #fa5959;
+//     font-size: 12px;
+//     text-align: center !important;
+//     background: #ffc9c9;
+//   }
+// }
+
+.updateTime {
+  margin-top: 10px;
+  text-align: left;
+  color: #aaa2a2;
+
+  :global(.ant-tag) {
+    border-radius: 6px;
+  }
+}
+
+.errorGrossProfit {
+  color: #ff4d4f;
+}
+
+.terminateTip {
+  color: red;
+}
+.reasonType{
+  :global(.ant-select){
+    width: 70% !important;
+  }
+}

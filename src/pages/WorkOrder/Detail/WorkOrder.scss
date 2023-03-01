@@ -1,0 +1,17 @@
+.workDetial {
+  //   :global(.ant-btn-primary) {
+  //     border-color: #67c23a !important;
+  //     background-color: #67c23a !important;
+  //   }
+}
+
+.stepWrap {
+  position: sticky;
+  top: -1.5rem;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.selfStepWrap {
+  top: 64px;
+}

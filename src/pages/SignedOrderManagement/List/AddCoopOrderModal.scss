@@ -1,0 +1,16 @@
+.contentWrap {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+}
+
+.select,
+.input {
+  max-width: 200px !important;
+}
+
+.addForm {
+  :global(.ant-input-number) {
+    width: 200px !important;
+  }
+}

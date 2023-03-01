@@ -1,0 +1,10 @@
+.header {
+  justify-content: space-between;
+}
+
+.table {
+  :global(.ant-table) {
+    max-height: 300px;
+    overflow: auto;
+  }
+}

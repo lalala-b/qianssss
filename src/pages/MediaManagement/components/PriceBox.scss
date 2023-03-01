@@ -1,0 +1,25 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxItem {
+  flex: 1;
+  height: 80px;
+  text-align: center;
+}
+
+.title {
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.value {
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 30px;
+  color: #2c64ff;
+}

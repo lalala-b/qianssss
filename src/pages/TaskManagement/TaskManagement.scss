@@ -1,0 +1,9 @@
+.root {
+  color: red;
+}
+.groupBoxLabel {
+  min-width: 80px;
+}
+:global(.tabs-p > .ant-tabs-nav) {
+  margin: 0px !important;
+}

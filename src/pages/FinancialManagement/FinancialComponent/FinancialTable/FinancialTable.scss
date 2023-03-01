@@ -1,0 +1,36 @@
+.btnWrapper{
+    display: flex;
+    .detailBtn{
+        color: #ff8918 !important;
+    }
+    .priceBtn{
+        color: #03b600 !important;
+    }
+}
+
+.accountItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+  
+    span{
+      font-weight: 700;
+    }
+  }
+
+.accountItemMsgWrap {
+    // text-align: left;
+    width: 100%;
+    text-overflow: ellipsis;
+    display: -webkit-box; // 将对象作为弹性伸缩盒子模型显示。
+    -webkit-line-clamp: 2; //超出两行隐藏
+    -webkit-box-orient: vertical; // 从上到下垂直排列子元素
+    overflow: hidden;
+}
+  

@@ -1,0 +1,54 @@
+.tableWrap {
+  :global(.ant-table-wrapper) {
+    margin-bottom: 30px;
+  }
+}
+
+.payOrCollectMomeyTip {
+  padding: 8px 12px;
+  background-color: #fefbe8;
+  outline: 2px solid #fbe69a;
+  border-radius: 4px;
+
+  .warnIcon {
+    color: #eeb040;
+  }
+
+  i {
+    margin-left: 10px;
+  }
+}
+
+.modalTitleWrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  :global(.ant-btn) {
+    margin-left: 20px;
+  }
+}
+
+.voucherWrap {
+  margin-top: 30px;
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .formWrap {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 20px 14px;
+
+    .uploadTip {
+      color: rgba(0,0,0,.5);
+      margin-left: 4px;
+    }
+  }
+}

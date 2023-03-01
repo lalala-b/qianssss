@@ -1,0 +1,68 @@
+.required:before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: "*";
+}
+
+.input {
+  width: 220px !important;
+  margin-right: 18px !important;
+}
+
+.form {
+  margin-left: 70px;
+}
+
+.flex {
+  display: flex;
+}
+
+.error {
+  color: #ff4d4f;
+  font-size: 14px;
+  position: absolute;
+  left: 80px;
+  bottom: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.footerToolsBox {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 96%;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.expendBox {
+  margin-bottom: 60px;
+}
+
+.notice {
+  color: #ff4d4f;
+}
+
+.underLine {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  margin: 36px 0;
+}
+
+.formLabel {
+  display: inline-block;
+  width: 33.33%;
+  text-align: right;
+  margin-bottom: 24px;
+}

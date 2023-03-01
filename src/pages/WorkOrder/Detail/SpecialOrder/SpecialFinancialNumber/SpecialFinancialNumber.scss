@@ -1,0 +1,32 @@
+.contentWrap {
+  padding: 10px 24px;
+  background: #ebebeb;
+  border-radius: 6px;
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  button {
+    margin-left: 12px;
+  }
+}
+
+
+.contentTipWrap {
+  :global(.ant-form-item) {
+    margin-bottom: 0;
+  }
+
+  .contentTip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: noWrap;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+}
